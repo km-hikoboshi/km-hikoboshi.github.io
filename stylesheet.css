@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
@@ -12,31 +12,101 @@ ul {
 }
 
 header {
-  height: 65px;
+  height: 100px;
   width: 100%;
   position :fixed;
   top: 0;
+  background-color: white;
+  opacity: 0.8;
   z-index: 10;
 }
 
 header h1 {
-  float: left;
+  text-align: center;
+  padding: 0px 0px 5px
 }
-
 
 .logo {
   width: 275px;
   height: 35px;
 }
 
-nav {
-  float: right;
-  margin-right: -25px;
+header nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px 5px 0px;
+  margin-right: 25px;
 }
 
-nav a {
-  line-height: 65px;
-  padding: 0 25px;
-  display: block;
-  float: left;
+nav {
+  margin-top: -50px;
 }
+
+nav li {
+  padding:20px 20px;
+}
+
+.note_logo {
+  width: 35px;
+  height: 35px;
+  margin-top: -7px;
+}
+
+.top {
+  max-width: 100%;
+}
+
+#serviceArea h2 {
+  text-align: center;
+}
+
+.service_contents {
+  display: flex;
+}
+
+.writing {
+  width: 50%;
+  text-align: center;
+  margin: 0px 20px 10px;
+}
+
+.naration {
+  width: 50%;
+  text-align: center;
+  margin: 0px 20px 10px;
+}
+
+#worksArea {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.blank001 {
+  margin: 100px 0px 20px 0px;
+  text-align: center;
+}
+
+#worksArea h2 {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+#worksArea img {
+  width: 70%;
+}
+
+#worksArea li {
+  margin-bottom: 100px;
+  border-bottom: 1px solid gray;
+}
+
+#contactArea {
+  text-align: center;
+  margin: 0px 20px 30px 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+
