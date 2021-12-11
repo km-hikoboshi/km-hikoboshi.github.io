@@ -141,3 +141,18 @@ footer {
     padding:20px 8px;
   }
   
+  header {
+  height: 80px;
+  width: 100%;
+  position :fixed;
+  top: 0;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 10;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: -1px;
+}
+
