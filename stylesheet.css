@@ -23,6 +23,12 @@ header h1 {
   float: left;
 }
 
+
+.logo {
+  width: 275px;
+  height: 35px;
+}
+
 nav {
   float: right;
   margin-right: -25px;
