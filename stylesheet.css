@@ -78,31 +78,46 @@ nav li {
 
 #worksArea {
   margin-top: 100px;
-  text-align: center;
 }
 
 .blank001 {
-  margin: 100px 0px 20px 0px;
+  margin: 100px 0px 100px 0px;
   text-align: center;
+}
+
+.worksicon {
+  width: 50%;
+  margin: 20px auto;
+  padding: 40px 20px 20px 20px;
+  border: 1px solid gray;
+}
+
+.worksicon h3 {
+  text-align: center;
+}
+
+.worksicon img {
+  width: 50%;
+}
+
+.worksicon p {
+  margin: 0px 5px 0px 5px;
 }
 
 #worksArea h2 {
   margin-top: 100px;
   margin-bottom: 60px;
+  text-align: center;
 }
 
-#worksArea img {
-  width: 70%;
-}
-
-#worksArea li {
-  margin-bottom: 100px;
-  border-bottom: 1px solid gray;
-}
 
 #contactArea {
   text-align: center;
   margin: 0px 20px 30px 20px;
+}
+
+#contactArea h2 {
+  margin-top: 80px;
 }
 
 footer {
