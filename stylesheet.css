@@ -124,4 +124,20 @@ footer {
   text-align: center;
 }
 
+@media all and (max-width: 540px) {
 
+  .logo {
+    width: 220px;
+    height: 28px;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+    margin-right: 8px;
+  }
+
+  nav li {
+    padding:20px 8px;
+  }
+  
