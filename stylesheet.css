@@ -17,8 +17,7 @@ header {
   position :fixed;
   top: 0;
   background-color: white;
-  opacity: 0.8;
-  z-index: 10;
+  opacity: 0.9;
 }
 
 header h1 {
@@ -124,30 +123,31 @@ footer {
   text-align: center;
 }
 
+
 @media all and (max-width: 540px) {
+.logo {
+  width: 220px;
+  height: 28px;
+}
 
-  .logo {
-    width: 220px;
-    height: 28px;
-  }
-  header nav ul {
-    display: flex;
-    justify-content: center;
-    padding: 5px 0px 5px 0px;
-    margin-right: 8px;
-  }
+header nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px 5px 0px;
+  margin-right: 8px;
+}
 
-  nav li {
-    padding:20px 8px;
-  }
-  
-  header {
+nav li {
+  padding:20px 8px;
+}
+
+header {
   height: 80px;
   width: 100%;
   position :fixed;
   top: 0;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   z-index: 10;
 }
 
@@ -155,4 +155,4 @@ header h1 {
   text-align: center;
   margin-top: -1px;
 }
-
+}
